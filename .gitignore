@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+release/
+
+# Tests / outils
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Médias de travail et exports
+demo/
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.gcsv
+*.vibeflow
+
+# Secrets et configuration locale
+.env
+.env.*
+*.key
+VibeFlow.lnk
+
+# Éditeurs / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
